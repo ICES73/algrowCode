@@ -1,0 +1,20 @@
+{
+  "name": "codealong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "jszip": "^3.10.1",
+    "node-dir": "^0.1.17",
+    "socket.io": "^4.5.1"
+  }
+}
