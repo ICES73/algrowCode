@@ -9,7 +9,7 @@ const http = require("http").createServer(app);
 
 var latestData = "nill";
 
-http.listen(5000);
+http.listen(process.env.PORT || 5500);
 
 const io = require("socket.io")(http, {
   cors: { origin: "*" },
